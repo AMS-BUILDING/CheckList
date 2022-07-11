@@ -22,7 +22,8 @@
 - Cột khóa ngoại phải có tên bảng với khóa chính của chúng, ví dụ: blog_id đại diện cho id khóa ngoại từ blog bảng.
 - Tránh các tên khóa chính có ý nghĩa về mặt ngữ nghĩa. Một lỗi thiết kế cổ điển là tạo một bảng có khóa chính có ý nghĩa thực tế như 'name' làm khóa chính. Trong trường hợp này nếu một số người thay đổi tên của mình thì mối quan hệ với bảng khác sẽ có hiệu lực và tên có thể lặp lại (không phải duy nhất).
 
-## II. Controller(BE)
+## II.BE
+### 1. Controller
 - Tạo class Controller theo chức năng trên từng màn hình trên Admin.
 - Quy ước đặt tên URL cho lệnh controller có thể tuân theo một trong các phương pháp sau:
     - Theo các hoạt động Tạo, Đọc, Cập nhật và Xóa (CRUD):
@@ -46,6 +47,11 @@
          - Tên hàm: showData()
          - Tên class: HocSinh
          - Tên package: entity, bean, model, service,.....
+
+### 2. Format và import 
+- Code bắt buộc phải format. Phải dùng format chung cùng với format chuẩn của dự án và code phần nào bôi đen phần đấy và format. Không được phép format cả trang.
+- Phải xoá những biến hoặc thư viên import thừa đi. Dùng biến nào thư viên nào thì khai báo và import thư viện đấy
+- Không được import wildcard. Tức là import *.
  
  ### III. Git
  - Tất cả mọi nhánh đều phải tách từ nhánh develop
