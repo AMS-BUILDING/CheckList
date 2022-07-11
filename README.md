@@ -40,6 +40,11 @@
 - Tên biến + Tên hàm + Tên package + Tên class
    - Tất cả các loại tên phải tuân thủ theo quy tắc con lạc đà và chữ đầu tiên không viết hoa (TRỪ LÊN CLASS CHỮ ĐẦU VIẾT HOA)
    - Tên đặt phải có ý nghĩa 
+   ####Ví dụ:
+         - Tên biến : sinhVien
+         - Tên hàm: showData()
+         - Tên class: HocSinh
+         - Tên package: entity, bean, model, service,.....
  
  ### III. Git
  - Tất cả mọi nhánh đều phải tách từ nhánh develop
