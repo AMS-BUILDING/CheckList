@@ -53,7 +53,9 @@
 - Phải xoá những biến hoặc thư viên import thừa đi. Dùng biến nào thư viên nào thì khai báo và import thư viện đấy
 - Không được import wildcard. Tức là import *.
  
- ### III. Git
+ ### III. FE
+ 
+ ### IV. Git
  - Tất cả mọi nhánh đều phải tách từ nhánh develop
  - Quy tắc đặt tên nhánh: TaskID/Tên nhánh/ Tên người làm 
     - Ví dụ: SP1-BE/implement-company/HangNT
